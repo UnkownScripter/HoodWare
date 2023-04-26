@@ -1,0 +1,9 @@
+local message = "hoodware best executor fr - classified"
+local titlemsg = "HoodWare"
+local iconasset = ""
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = titlemsg,
+	Text = message,
+	Icon = iconasset
+})
